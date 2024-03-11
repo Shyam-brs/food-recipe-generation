@@ -11,7 +11,12 @@ const headers = {
   "Content-Type": "application/json",
   Authorization: `Bearer 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`,
 };
-
+searchQuery.addEventListener("keydown", function (event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    search.click();
+  }
+});
 search.addEventListener("click", function () {
   if (!searchQuery.value) {
     return;
