@@ -9,4 +9,4 @@
 ##### Purpose:
     Generate food recieps using AI.
 
-#### Dear Students, Check out the live app [here](http://203.193.173.125/buildriseshine/openai/food-recipe-generation/).
+#### Check out the live app [here](https://shyam-brs.github.io/food-recipe-generation/).
